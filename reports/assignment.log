@@ -1,0 +1,157 @@
+2025-08-20 17:49:08,652 - __main__ - INFO - ============================================================
+2025-08-20 17:49:08,652 - __main__ - INFO - STUDENT-MENTOR ASSIGNMENT SYSTEM STARTED
+2025-08-20 17:49:08,653 - __main__ - INFO - ============================================================
+2025-08-20 17:49:08,653 - __main__ - INFO - Loading student and mentor data...
+2025-08-20 17:49:08,655 - services.data_service - INFO - Loaded 65 students from C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:49:08,656 - services.data_service - INFO - Loaded 3 mentors from C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:49:08,659 - __main__ - INFO - Starting assignment process...
+2025-08-20 17:49:08,659 - services.assignment_service - INFO - Starting assignment process for 65 students and 3 mentors
+2025-08-20 17:49:08,659 - services.assignment_service - INFO - Students sorted by roll number
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Found 3 available mentors
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Creating 3 batches with batch size 30
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Processing batch 1: students 1-30
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Assigned 30 students to mentor FAC001
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Processing batch 2: students 31-60
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Assigned 30 students to mentor FAC002
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Processing batch 3: students 61-65
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Assigned 5 students to mentor FAC003
+2025-08-20 17:49:08,660 - services.assignment_service - INFO - Assignment completed: 3 assignments created, 0 students unassigned
+2025-08-20 17:49:08,662 - __main__ - INFO - Saving updated assignments...
+2025-08-20 17:49:08,663 - services.data_service - INFO - Saved 65 students to C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:49:08,665 - services.data_service - INFO - Saved 3 mentors to C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:49:08,665 - __main__ - INFO - Generating reports...
+2025-08-20 17:49:08,666 - services.export_service - INFO - Assignment summary exported to CSV: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_174908.csv
+2025-08-20 17:49:08,668 - services.export_service - ERROR - Error exporting to Excel: No module named 'openpyxl'
+2025-08-20 17:49:08,668 - __main__ - WARNING - Failed to export excel format: No module named 'openpyxl'
+2025-08-20 17:49:08,676 - services.export_service - INFO - Assignment summary exported to PDF: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_174908.pdf
+2025-08-20 17:49:08,677 - services.export_service - INFO - Detailed assignments exported to CSV: C:\Projects\Automation-model-mentor\reports\detailed_assignments_20250820_174908.csv
+2025-08-20 17:49:08,679 - services.export_service - INFO - Assignment summary exported to JSON: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_174908.json
+2025-08-20 17:49:08,679 - __main__ - INFO - ============================================================
+2025-08-20 17:49:08,679 - __main__ - INFO - ASSIGNMENT PROCESS COMPLETED SUCCESSFULLY
+2025-08-20 17:49:08,679 - __main__ - INFO - ============================================================
+2025-08-20 17:50:32,587 - __main__ - INFO - ============================================================
+2025-08-20 17:50:32,589 - __main__ - INFO - STUDENT-MENTOR ASSIGNMENT SYSTEM STARTED
+2025-08-20 17:50:32,589 - __main__ - INFO - ============================================================
+2025-08-20 17:50:32,589 - __main__ - INFO - Loading student and mentor data...
+2025-08-20 17:50:32,591 - services.data_service - INFO - Loaded 64 students from C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:50:32,592 - services.data_service - INFO - Loaded 3 mentors from C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:50:32,597 - __main__ - INFO - Starting assignment process...
+2025-08-20 17:50:32,598 - services.assignment_service - INFO - Starting assignment process for 64 students and 3 mentors
+2025-08-20 17:50:32,599 - services.assignment_service - INFO - Students sorted by roll number
+2025-08-20 17:50:32,599 - services.assignment_service - INFO - Found 3 available mentors
+2025-08-20 17:50:32,600 - services.assignment_service - INFO - Creating 3 batches with batch size 30
+2025-08-20 17:50:32,600 - services.assignment_service - INFO - Processing batch 1: students 1-30
+2025-08-20 17:50:32,601 - services.assignment_service - INFO - Assigned 30 students to mentor FAC001
+2025-08-20 17:50:32,601 - services.assignment_service - INFO - Processing batch 2: students 31-60
+2025-08-20 17:50:32,602 - services.assignment_service - INFO - Assigned 30 students to mentor FAC002
+2025-08-20 17:50:32,603 - services.assignment_service - INFO - Processing batch 3: students 61-64
+2025-08-20 17:50:32,603 - services.assignment_service - INFO - Assigned 4 students to mentor FAC003
+2025-08-20 17:50:32,604 - services.assignment_service - INFO - Assignment completed: 3 assignments created, 0 students unassigned
+2025-08-20 17:50:32,610 - __main__ - INFO - Saving updated assignments...
+2025-08-20 17:50:32,613 - services.data_service - INFO - Saved 64 students to C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:50:32,614 - services.data_service - INFO - Saved 3 mentors to C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:50:32,616 - __main__ - INFO - Generating reports...
+2025-08-20 17:50:32,618 - services.export_service - INFO - Assignment summary exported to CSV: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175032.csv
+2025-08-20 17:50:32,812 - services.export_service - INFO - Assignment summary exported to Excel: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175032.xlsx
+2025-08-20 17:50:32,817 - services.export_service - INFO - Assignment summary exported to PDF: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175032.pdf
+2025-08-20 17:50:32,819 - services.export_service - INFO - Detailed assignments exported to CSV: C:\Projects\Automation-model-mentor\reports\detailed_assignments_20250820_175032.csv
+2025-08-20 17:50:32,820 - services.export_service - INFO - Assignment summary exported to JSON: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175032.json
+2025-08-20 17:50:32,821 - __main__ - INFO - ============================================================
+2025-08-20 17:50:32,822 - __main__ - INFO - ASSIGNMENT PROCESS COMPLETED SUCCESSFULLY
+2025-08-20 17:50:32,822 - __main__ - INFO - ============================================================
+2025-08-20 17:54:32,543 - __main__ - INFO - ============================================================
+2025-08-20 17:54:32,543 - __main__ - INFO - STUDENT-MENTOR ASSIGNMENT SYSTEM STARTED
+2025-08-20 17:54:32,545 - __main__ - INFO - ============================================================
+2025-08-20 17:54:32,545 - __main__ - INFO - Loading student and mentor data...
+2025-08-20 17:54:32,546 - services.data_service - INFO - Loaded 64 students from C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:54:32,546 - services.data_service - INFO - Loaded 3 mentors from C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:54:32,548 - __main__ - INFO - Starting assignment process...
+2025-08-20 17:54:32,548 - services.assignment_service - INFO - Starting assignment process for 64 students and 3 mentors
+2025-08-20 17:54:32,549 - services.assignment_service - INFO - Students sorted by roll number
+2025-08-20 17:54:32,550 - services.assignment_service - INFO - Found 3 available mentors
+2025-08-20 17:54:32,550 - services.assignment_service - INFO - Creating 2 complete batches of 30 students each
+2025-08-20 17:54:32,551 - services.assignment_service - INFO - Remainder: 4 students
+2025-08-20 17:54:32,551 - services.assignment_service - INFO - Processing batch 1: students 1-30
+2025-08-20 17:54:32,551 - services.assignment_service - INFO - Assigned 30 students to mentor FAC001
+2025-08-20 17:54:32,551 - services.assignment_service - INFO - Processing batch 2: students 31-60
+2025-08-20 17:54:32,551 - services.assignment_service - INFO - Assigned 30 students to mentor FAC002
+2025-08-20 17:54:32,551 - services.assignment_service - INFO - Processing remainder: 4 students (Roll 61-64)
+2025-08-20 17:54:32,552 - services.assignment_service - WARNING - Mentor FAC002 now has 34 students (exceeds normal capacity of 30)
+2025-08-20 17:54:32,552 - services.assignment_service - INFO - Added 4 remainder students to mentor FAC002
+2025-08-20 17:54:32,552 - services.assignment_service - INFO - Assignment completed: 2 assignments created, 0 students unassigned
+2025-08-20 17:54:32,555 - __main__ - INFO - Saving updated assignments...
+2025-08-20 17:54:32,556 - services.data_service - INFO - Saved 64 students to C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:54:32,557 - services.data_service - INFO - Saved 3 mentors to C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:54:32,557 - __main__ - INFO - Generating reports...
+2025-08-20 17:54:32,558 - services.export_service - INFO - Assignment summary exported to CSV: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175432.csv
+2025-08-20 17:54:32,735 - services.export_service - INFO - Assignment summary exported to Excel: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175432.xlsx
+2025-08-20 17:54:32,740 - services.export_service - INFO - Assignment summary exported to PDF: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175432.pdf
+2025-08-20 17:54:32,742 - services.export_service - INFO - Detailed assignments exported to CSV: C:\Projects\Automation-model-mentor\reports\detailed_assignments_20250820_175432.csv
+2025-08-20 17:54:32,743 - services.export_service - INFO - Assignment summary exported to JSON: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175432.json
+2025-08-20 17:54:32,743 - __main__ - INFO - ============================================================
+2025-08-20 17:54:32,743 - __main__ - INFO - ASSIGNMENT PROCESS COMPLETED SUCCESSFULLY
+2025-08-20 17:54:32,744 - __main__ - INFO - ============================================================
+2025-08-20 17:55:29,017 - __main__ - INFO - ============================================================
+2025-08-20 17:55:29,017 - __main__ - INFO - STUDENT-MENTOR ASSIGNMENT SYSTEM STARTED
+2025-08-20 17:55:29,018 - __main__ - INFO - ============================================================
+2025-08-20 17:55:29,018 - __main__ - INFO - Loading student and mentor data...
+2025-08-20 17:55:29,019 - services.data_service - INFO - Loaded 73 students from C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:55:29,019 - services.data_service - INFO - Loaded 3 mentors from C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:55:29,022 - __main__ - INFO - Starting assignment process...
+2025-08-20 17:55:29,022 - services.assignment_service - INFO - Starting assignment process for 73 students and 3 mentors
+2025-08-20 17:55:29,023 - services.assignment_service - INFO - Students sorted by roll number
+2025-08-20 17:55:29,023 - services.assignment_service - INFO - Found 3 available mentors
+2025-08-20 17:55:29,024 - services.assignment_service - INFO - Creating 2 complete batches of 30 students each
+2025-08-20 17:55:29,024 - services.assignment_service - INFO - Remainder: 13 students
+2025-08-20 17:55:29,024 - services.assignment_service - INFO - Processing batch 1: students 1-30
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Assigned 30 students to mentor FAC001
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Processing batch 2: students 31-60
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Assigned 30 students to mentor FAC002
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Processing remainder: 13 students (Roll 61-73)
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Remainder students (13) > 12, assigning to new mentor
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Assigned 13 remainder students to new mentor FAC003
+2025-08-20 17:55:29,026 - services.assignment_service - INFO - Assignment completed: 3 assignments created, 0 students unassigned
+2025-08-20 17:55:29,029 - __main__ - INFO - Saving updated assignments...
+2025-08-20 17:55:29,030 - services.data_service - INFO - Saved 73 students to C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:55:29,030 - services.data_service - INFO - Saved 3 mentors to C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:55:29,030 - __main__ - INFO - Generating reports...
+2025-08-20 17:55:29,032 - services.export_service - INFO - Assignment summary exported to CSV: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175529.csv
+2025-08-20 17:55:29,229 - services.export_service - INFO - Assignment summary exported to Excel: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175529.xlsx
+2025-08-20 17:55:29,233 - services.export_service - INFO - Assignment summary exported to PDF: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175529.pdf
+2025-08-20 17:55:29,235 - services.export_service - INFO - Detailed assignments exported to CSV: C:\Projects\Automation-model-mentor\reports\detailed_assignments_20250820_175529.csv
+2025-08-20 17:55:29,235 - services.export_service - INFO - Assignment summary exported to JSON: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175529.json
+2025-08-20 17:55:29,236 - __main__ - INFO - ============================================================
+2025-08-20 17:55:29,236 - __main__ - INFO - ASSIGNMENT PROCESS COMPLETED SUCCESSFULLY
+2025-08-20 17:55:29,236 - __main__ - INFO - ============================================================
+2025-08-20 17:56:02,203 - __main__ - INFO - ============================================================
+2025-08-20 17:56:02,204 - __main__ - INFO - STUDENT-MENTOR ASSIGNMENT SYSTEM STARTED
+2025-08-20 17:56:02,204 - __main__ - INFO - ============================================================
+2025-08-20 17:56:02,204 - __main__ - INFO - Loading student and mentor data...
+2025-08-20 17:56:02,206 - services.data_service - INFO - Loaded 72 students from C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:56:02,207 - services.data_service - INFO - Loaded 3 mentors from C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:56:02,209 - __main__ - INFO - Starting assignment process...
+2025-08-20 17:56:02,209 - services.assignment_service - INFO - Starting assignment process for 72 students and 3 mentors
+2025-08-20 17:56:02,210 - services.assignment_service - INFO - Students sorted by roll number
+2025-08-20 17:56:02,210 - services.assignment_service - INFO - Found 3 available mentors
+2025-08-20 17:56:02,211 - services.assignment_service - INFO - Creating 2 complete batches of 30 students each
+2025-08-20 17:56:02,212 - services.assignment_service - INFO - Remainder: 12 students
+2025-08-20 17:56:02,212 - services.assignment_service - INFO - Processing batch 1: students 1-30
+2025-08-20 17:56:02,212 - services.assignment_service - INFO - Assigned 30 students to mentor FAC001
+2025-08-20 17:56:02,213 - services.assignment_service - INFO - Processing batch 2: students 31-60
+2025-08-20 17:56:02,213 - services.assignment_service - INFO - Assigned 30 students to mentor FAC002
+2025-08-20 17:56:02,213 - services.assignment_service - INFO - Processing remainder: 12 students (Roll 61-72)
+2025-08-20 17:56:02,214 - services.assignment_service - WARNING - Mentor FAC002 now has 42 students (exceeds normal capacity of 30)
+2025-08-20 17:56:02,214 - services.assignment_service - INFO - Added 12 remainder students to mentor FAC002
+2025-08-20 17:56:02,215 - services.assignment_service - INFO - Assignment completed: 2 assignments created, 0 students unassigned
+2025-08-20 17:56:02,217 - __main__ - INFO - Saving updated assignments...
+2025-08-20 17:56:02,218 - services.data_service - INFO - Saved 72 students to C:\Projects\Automation-model-mentor\data\students.csv
+2025-08-20 17:56:02,219 - services.data_service - INFO - Saved 3 mentors to C:\Projects\Automation-model-mentor\data\mentors.csv
+2025-08-20 17:56:02,219 - __main__ - INFO - Generating reports...
+2025-08-20 17:56:02,219 - services.export_service - INFO - Assignment summary exported to CSV: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175602.csv
+2025-08-20 17:56:02,390 - services.export_service - INFO - Assignment summary exported to Excel: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175602.xlsx
+2025-08-20 17:56:02,395 - services.export_service - INFO - Assignment summary exported to PDF: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175602.pdf
+2025-08-20 17:56:02,396 - services.export_service - INFO - Detailed assignments exported to CSV: C:\Projects\Automation-model-mentor\reports\detailed_assignments_20250820_175602.csv
+2025-08-20 17:56:02,398 - services.export_service - INFO - Assignment summary exported to JSON: C:\Projects\Automation-model-mentor\reports\assignment_summary_20250820_175602.json
+2025-08-20 17:56:02,398 - __main__ - INFO - ============================================================
+2025-08-20 17:56:02,398 - __main__ - INFO - ASSIGNMENT PROCESS COMPLETED SUCCESSFULLY
+2025-08-20 17:56:02,399 - __main__ - INFO - ============================================================

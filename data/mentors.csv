@@ -1,0 +1,4 @@
+faculty_id,name,department,email,phone,availability,max_students
+FAC001,Dr. Mentor 1,Computer Science,mentor1@university.edu,8765400001,True,30
+FAC002,Dr. Mentor 2,Electronics,mentor2@university.edu,8765400002,True,30
+FAC003,Dr. Mentor 3,Mechanical,mentor3@university.edu,8765400003,True,30
